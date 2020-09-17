@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* con esta propiedad establecemos que el objeto no afecte su tamaño independiente de las propiedades que se definan, por ejemplo un padding*/
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.border-inferior{
+    border: none;
+    border-radius: 2px;
+    border-bottom: 4px solid #9D0208;
+}
